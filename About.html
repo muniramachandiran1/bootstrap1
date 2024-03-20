@@ -1,126 +1,61 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/icon-removebg-preview.png">
     <title>Document</title>
 </head>
 <style>
-*{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-}
-body {
-  font-family: sans-serif;
-  margin: 0;
-  background-color: whitesmoke;
-}
-
-html {
-  box-sizing: border-box;
-}
-.column {
-  float: left;
-  width: 33%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-.row {
-  float: left;
-  width: 60%;
-  margin-bottom: 16px;
-  margin-left: 250px;
-  padding: 20px 8px;
-}
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
-}
-
-.about-section {
-  padding: 20px;
-  text-align: center;
-  background-color: #474e5d;
-  color: white;
-}
-
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
+    body{
+        font-family: sans-serif;
+        background-color: rgba(206, 201, 201, 0.219);
+    }
+    .element {
+        width: 60vw;
+        float: left;
+        background-image: url(cupcakes.png);
+        background-size: cover;
+        clip-path: circle(70% at 0% 50%);
+        shape-outside: circle(70% at 0% 50%) border-box;
+        shape-margin: 2em;  
+    }
+    p{
+        text-align: justify;
+        line-height: 2.5;
+        padding: 30px;
+    }
+    h3{
+        text-align: center;
+        font-size: 50px;
+        background-color: rgba(155, 127, 255, 0.342);
+    }
+    span{
+        background-color: rgba(0, 0, 0, 0.459);
+        color: white;
+    }
 </style>
 <body>
-    <div class="about-section">
-        <h1>About Us Page</h1>
-        <p>We are innovative and passionate about the work we do. We always come up with new ways to enrich your revenue to greater heights. Extraordinary and High Quality services: We have a supreme team who works rigorously to grown businesses beyond client's expectations</p>
-      </div>
-    <h2 style="text-align:center">Our Team</h2>
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="Images/Jack.jpeg" alt="Jane" style="width:100%">
-      <div class="container">
-        <h2>Jack Ma</h2>
-        <p class="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>jane@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
+    <h3>About - Section</h3>
+    <div class="element">
+      
+        <img src="https://bernardmarr.com/wp-content/uploads/2021/07/Measuring-Staff-Satisfaction-7-Reasons-Why-Your-Staff-Survey-Is-Not-Giving-You-Anything-Useful.png">
     </div>
-  </div>
+    <div class="element1">
+        <p> <span style="font-size: 40px;"> Welcome to Nagaraj Jewellery, </span> <br> Where we believe in the power of connection and collaboration. As a dynamic team driven by a shared passion for Global Recogagnation, we aim to create a vibrant hub for knowledge exchange and growth.<br>
 
-  <div class="column">
-    <div class="card">
-      <img src="Images/Jhony.jpeg" alt="Mike" style="width:100%">
-      <div class="container">
-        <h2>Johny deep</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
+            At <b>Nagaraj Jewellery, </b>we're committed to fostering an inclusive environment where diverse perspectives are valued and respected. Whether you're a seasoned professional or just starting out, there's a place for you here to learn, share, and grow.<br>
+            
+            Our mission is to empower individuals and businesses to reach their fullest potential by providing access to valuable resources, insightful discussions, and meaningful connections. Together, we can inspire innovation and drive positive change in our communities and beyond.<br>
+            
+            Join our community today and become part of a network of like-minded individuals who are dedicated to making a difference. Whether you're here to expand your skills, explore new opportunities, or simply connect with others who share your interests, you'll find a welcoming and supportive environment at <b>Nagaraj Jewellery.</b><br>
+            
+            We believe that by coming together and sharing our knowledge and experiences, we can achieve more than we ever could alone. So, let's embark on this journey together and create something truly remarkable.</p><br>
     </div>
-  </div>
-  
-  <div class="column">
-    <div class="card">
-      <img src="Images/Titanic.jpeg" alt="John" style="width:100%">
-      <div class="container">
-        <h2>Jack Dawson</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>john@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
+    <div>
+        <a class="logo" href="Home.html"><img src="Images/logo.jpg" width="200px" style="position: relative; padding-left: 550px;"></a>
+        <!-- <p style="text-align: center;">Welcome to our jewelry haven, where brilliance meets sophistication. Our curated collection speaks volumes of craftsmanship and elegance</p> -->
+         <h5 style="text-align: center;">No.177-E, Salem Main Road, New Pet, Krishnagiri - 635001</h5>
     </div>
-  </div>
-</div>
 </body>
 </html>

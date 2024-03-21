@@ -78,7 +78,57 @@
     /* mix-blend-mode:darken; */
     border-radius: 50%;
 }
+.adverd{
+  padding-left: 100px;
+  padding-top: 20px;
+}
+tag-list{
+    width: 47rem;
+    font-family: monospace;
+    position: relative;
+    overflow: hidden;
+}
+.inner{
+    width: fit-content;
+    display: flex;
+    gap:1rem;
+    animation: loop 5s linear infinite;
+    
+}
+.tag-list .inner img{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border: 2px solid yellow;
+}
+.tag{
+    display: flex;
+    align-items: center;
+    gap:0 0.2rem;
+    color: red;
+    font-size: 0.9rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 0.1rem 0.2rem #00000033,
+    0 0.1rem 0.5rem #00000033,
+    0 0.1rem 1.5rem #00000033;
+}
+.tag span{
+    font-size: 1.2rem;
+    color: gray;
+}
+.fade{
+    position: absolute;
+    background: linear-gradient(90deg,#1e293b, tranparent 30%,tranparent 70%, #1e293b);
+    pointer-events: none;
+}
+@keyframes loop{
+    0%{
+    transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-20%);
 
+    }}
 </style>
 <body>
   <nav class="navbar navbar-expand-sm bg-light navbar-primary">
@@ -176,6 +226,30 @@
       <p><span class="text-danger">The Platinum - </span><br> "Welcome to our platinum ornaments collection, where each piece embodies more than just luxury – it represents a pinnacle of elegance and refinement. Every item tells a story of unparalleled craftsmanship, showcasing the timeless allure of platinum. As you explore our selection, you'll discover ornaments that not only elevate your style but also resonate with the sophistication of the wearer. Platinum ornaments aren't merely accessories; they're symbols of individuality and prestige. Embrace the brilliance and rarity of platinum with pride, knowing that each piece you choose reflects not only beauty but also strength and exclusivity." </p>
   </div> 
   </div>
+</div>
+<div class="adverd">
+<!-- <video width="320" height="240" controls autoplay> -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/kT1ds0c3IFA?si=xG4i1BGqAsnQOuhZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <!-- Your browser does not support the video tag. -->
+<!-- </video> -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P5JYsjJIyHo?si=XXT1bHNNq5ZbKxTN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div class="tag-list">
+  <div class="inner">
+<div class="tag"><span><img src="Images/Kammal/500064SVAAGC01_1.webp"></span></div>
+<div class="tag"><span><img src="Images/Kammal/500104SQAABAPL_1.webp"></span></div>
+<div class="tag"><span><img src="Images/Kammal/502920HBGABE00_1 (1).webp"></span></div>
+<div class="tag"><span><img src="Images/Kammal/502920SBVABE00_1.webp"></span></div>
+<div class="tag"><span><img src="Images/Kammal/50D2PTSVQAAA09_1.webp"></span></div>
+<div class="tag"><span><img src="Images/Kammal/5122171LPABB00_1.jpg"></span></div>
+<div class="tag"><span><img src="Images/Kammal/513515PBHAAA00_1.webp"></span></div>
+<div class="tag"><span><img src="Images/Coins/51C2DTXAMAAA00_1.webp"></span></div>
+<div class="tag"><span><img src="Images/Coins/51C2ECXAAAAA00_1.jpg"></span></div>
+<div class="tag"><span><img src="Images/Coins/51C2ECXABAAA00_1.jpg"></span></div>
+<div class="tag"><span><img src="Images/Coins/51C2ECXAFAAA00_1.jpg"></span></div>
+<div class="tag"><span><img src="Images/Coins/600105ZBARAS00_1.webp"></span></div>
+<div class="tag"><span><img src="Images/Coins/600113ZEBAAP00_2.webp"></span></div>
+<div class="tag"><span><img src="Images/Coins/60C2ECZAEAAP00_2.jpg"></span></div>
 </div>
   <!-- <div class="h4 pb-2 mb-4 text-danger border-bottom border-danger"> -->
     <div class="popular-categories title-with-image d-none d-lg-block" data-section="Connect With Us">
